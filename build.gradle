@@ -34,7 +34,7 @@ dependencies {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
 	compile group: 'org.bgee.log4jdbc-log4j2', name: 'log4jdbc-log4j2-jdbc4.1', version: '1.16'
-	compile group: 'com.oracle', name: 'orai18n', version: '11.2.0.3'
+	implementation 'com.oracle:orai18n:12.1.0.2'
 }
 
 test {
